@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FontAwesome-->
     <link rel="stylesheet" href="../FONTS/fontawesome-free-6.4.0-web/css/all.css">
+    <!--CSS principal aplicado al HTML-->
     <link rel="stylesheet" href="../CSS/AnimaReview.css">
+    <!--CSS aplicado al Responsive Design-->
     <!--Estilos para el formulario de contacto-->
     <link rel="stylesheet" href="../CSS/formulario.css">
     <!--Estilo para el preloader-->
@@ -183,17 +186,18 @@
         <div class="flex">
             <form action="">
 
-                <label for="">Nombre</label>
-                <input type="text">
+                <label for="">Nombre completo</label>
+                <input type="text" name="name">
+                <span></span>
 
-                <label for="">Apellido</label>
-                <input type="text">
 
                 <label for="">Email</label>
-                <input type="email">
+                <input type="email" name="email">
+                <span></span>
 
                 <label for="">Película</label>
-                <textarea cols="30"></textarea>
+                <textarea cols="30" name="textarea"></textarea>
+                <span></span>
 
                 <button type="submit">Enviar</button>
                  <!--Preloader-->
@@ -203,7 +207,9 @@
                         </div></div>
                     </div>
                 </center>
+                
             </form>
+            <script src="../JS/Formulario.js"></script>
         </div>
        
     </section>
