@@ -26,6 +26,8 @@ h1{
     font-weight: 800;
     font-family: 'Saira Condensed', sans-serif;
 }
+
+
 h3{
     font-size: 2re;
 }
@@ -198,6 +200,14 @@ a{
 .navbar a{
     color: black;
     font-weight: 500;
+}
+.navbar a:hover{
+    background-color: rgba(198, 195, 195, 0.631);
+    /* background: transparent; */
+    color: rgba(0, 128, 128, 0.349);
+    font-size: 20px;
+    padding-top: 15px;
+    transition: 2.3s ease-in-out;
 }
 .navbar .container{
     display: flex;
