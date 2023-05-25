@@ -1,0 +1,184 @@
+/*Responsive desing para un tamaño de panatlla 530 x 800*/
+@media screen and (max-width: 800px) {
+    *{
+        /* font-size: 10px; */
+        padding: 5px;
+        border: 5px;
+
+    }
+    /*Redefiniendo los tamaños de letras de los H*/
+    h1{
+        font-size: rem;
+    }
+    #titulo-header{
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    .h3-titulo{
+        font-size: 3.5rem;
+    }
+    h4{
+        font-size: 2.5rem;
+    }
+    .txt-large{
+        font-size: 23px;
+        text-align: left;
+        margin-left: 0;
+        padding-left: 0;
+
+    }
+    h1,
+    h3,
+    h4{
+        margin-bottom: 25px;
+    }
+    /*Redefiniendo el tamaño de los p*/
+    .p-frase{
+        padding-top: 600px;
+    }
+    p{
+        font-size: 140%;
+    }
+    .p-formulario{
+        font-size: 170%;
+        line-height: 2.3rem;
+    }
+
+    .p-frase{
+        font-size: 150%;
+        padding-top: 5px;
+    }
+    .flex-info h4{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    /*Tamaño de las imágenes*/
+    img{
+        max-height: 100vh;
+        max-width: 100%;
+    }
+    /*Tamaño de los A*/
+    a{
+        font-size: 11px;
+
+    }
+
+    /*Redefiniendo los paddings*/
+    .pt-1{
+        padding-top: 100px;
+    }
+    .pt-2{
+        padding-top: 80px;
+    }
+    .pt-3{
+        padding-top: 60px;
+    }
+    .pt-4{
+        padding-top: 40px;
+    }
+    .pb-1{
+        padding-top: 100px;
+    }
+    .pb-2{
+        padding-top: 80px;
+    }
+    .pb-3{
+        padding-top: 60px;
+    }
+    .pb-4{
+        padding-top: 40px;
+    }
+    /*FLEX*/  
+    .flex{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+
+    }  
+     .flex-info{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    }
+    .flex-box{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    /*Mainheader*/
+    #mainheader{
+        height: 100vh;
+        
+    }
+
+    /*Navbar*/
+    .navbar .container{
+        display: flex;
+        justify-content: center
+    }
+    .navbar ul{
+        display: flex;
+    }
+    .navbar ul li{
+        padding: 10px 10px;
+    }
+
+    /*Sección de films*/
+    #films img{
+        height: 500px;
+        display: block;
+        margin: 10px auto;
+        padding-bottom: 30px;
+    }
+
+    /*Sección de estrenos*/
+    #estrenos img{
+        height: 500px;
+        display: block;
+        margin: 10px auto;
+        padding-bottom: 30px;
+    }
+
+    /*Sección de directores*/
+    #directores{
+        height: auto;
+        display: block;
+        margin: 20px auto;
+        padding-bottom: 40px;
+    }
+
+    /*Sección de contacto*/
+    #contacto{
+        height: auto;
+        display: block;
+        margin: 40px auto;
+        padding-bottom: 40px;
+
+    }
+    form{
+        width: 400px;
+    }
+ 
+    /*footer*/
+    footer{
+        padding: 50px;
+        font-size: 120%;
+    }
+
+
+    /*Background*/
+    .bk-header{
+        width: auto;
+        height: auto;
+    }
+}
+
+/*Responsive desing para un tamaño de pantalla de 874 x 1080*/
