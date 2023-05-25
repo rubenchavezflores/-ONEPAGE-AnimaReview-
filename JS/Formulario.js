@@ -1,5 +1,4 @@
 const nameField = document.querySelector("[name=name]");
-// const lastnamenameField = document.querySelector("[name=lastname]");
 const emailField = document.querySelector("[name=email]");
 const textareaField = document.querySelector("[name=textarea]");
 
@@ -32,7 +31,6 @@ const validateEmailFormat = e => {
     }
 }
 nameField.addEventListener("blur", (e) => validateEmptyField("Introduzca su nombre", e));
-// lastnameField.addEventListener("blur", (e) => validateEmptyField("Introduzca su apellido", e));
 emailField.addEventListener("blur", (e) => validateEmptyField("Introduzca un email", e));
 textareaField.addEventListener("blur", (e) => validateEmptyField("Complete este campo", e));
 emailField.addEventListener("input", (e) => validateEmptyField("No se puso ningún correo"));
