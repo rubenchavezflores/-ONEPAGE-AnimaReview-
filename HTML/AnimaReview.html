@@ -9,6 +9,7 @@
     <!--CSS principal aplicado al HTML-->
     <link rel="stylesheet" href="../CSS/AnimaReview.css">
     <!--CSS aplicado al Responsive Design-->
+    <link rel="stylesheet" href="../CSS/RD.css">
     <!--Estilos para el formulario de contacto-->
     <link rel="stylesheet" href="../CSS/formulario.css">
     <!--Estilo para el preloader-->
@@ -183,34 +184,39 @@
             Se le pedira nombre, apellido, email y sí lo desea
             puede poner una mini reseña de una película animada
             </p>
-        <div class="flex">
-            <form action="">
+            <div class="flex">
+                <form action="">
+                    <label for="">Nombre completo</label>
+                    <input type="text" name="name">
+                    <span></span>
 
-                <label for="">Nombre completo</label>
-                <input type="text" name="name">
-                <span></span>
+                    <label for="">Email</label>
+                    <input type="email" name="email">
+                    <script></script>
 
+                    <label for="">Película</label>
+                    <textarea cols="30" name="textarea"></textarea>
+                    <span></span>
 
-                <label for="">Email</label>
-                <input type="email" name="email">
-                <span></span>
+                    <button type="submit">Enviar</button>
 
-                <label for="">Película</label>
-                <textarea cols="30" name="textarea"></textarea>
-                <span></span>
+                    <!--Preloader-->
+                    <center>
+                        <div class="loadingio-spinner-spinner-20rz6j5j50m"><div class="ldio-6aimln07uc3">
+                            <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                            </div></div>
+                        </div>
+                    </center>
+                </form>
+                <script src="../JS/Formulario.js"></script>
+            </div>
 
-                <button type="submit">Enviar</button>
-                 <!--Preloader-->
-                <center>
-                    <div class="loadingio-spinner-spinner-20rz6j5j50m"><div class="ldio-6aimln07uc3">
-                        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-                        </div></div>
-                    </div>
-                </center>
+               
                 
-            </form>
-            <script src="../JS/Formulario.js"></script>
+            
+           
         </div>
+        
        
     </section>
 
